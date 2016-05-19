@@ -7,9 +7,9 @@ using System.Text;
 
 namespace RESTService
 {
-    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IIBookService" in both code and config file together.
+    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IBookService" in both code and config file together.
     [ServiceContract]
-    public interface IIBookService
+    public interface IBookService
     {
         [OperationContract]
         void DoWork();
